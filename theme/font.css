@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Geist';
+	src: url('Geist[wght].woff2') format('woff2');
+	font-weight: 100 900; /* Variable font weight range */
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeistMono';
+	src: url('GeistMono[wght].woff2') format('woff2');
+	font-weight: 100 900; /* Variable font weight range */
+  font-style: normal;
+}
+
+body {
+	font-family: 'Geist', sans-serif;
+}
+
+code {
+	font-family: 'GeistMono', monospace !important;
+}

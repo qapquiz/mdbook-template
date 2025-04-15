@@ -6,3 +6,8 @@ src = "src"
 title = "mdbook-template"
 
 [preprocessor.alerts]
+
+[output.html]
+additional-css = ["./theme/font.css", "./theme/catppuccin.css", "./theme/catppuccin-alerts.css"]
+default-theme = "mocha"
+preferred-dark-theme = "mocha"
